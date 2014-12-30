@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AdBird</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="post">Post</string>
+    <string name="adsPicture">adsPicture</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh</string>
+    <string name="pull_to_refresh_release_label">Release to refresh</string>
+    <string name="pull_to_refresh_refreshing_label">Refreshing</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh</string>
+    <string name="empty_ad">Unfortunately there are no suggestions for you from advertisers</string>
+    <string name="empty_history">Here you can track statuses of your posted ads</string>
+    <string name="prompt_email">email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="sure">Are you sure to disconnect account?</string>
+    <string name="condition">Do not edit text photo of original post!</string>
+    <string name="locale">en</string>
+
+    <string name="myBill">My balance</string>
+    <string name="socialNet">Social network accounts</string>
+
+    <!-- ads -->
+    <string name="comp_name">Coca Cola</string>
+    <string name="comp_username">coca_cola</string>
+    <string name="ad_string">Coca </string>
+    <string name="pending">PENDING</string>
+    <string name="paid">PAID</string>
+    <string name="cancelled">CANCELLED</string>
+    <string name="posted_date">01.01.14</string>
+    <string name="money_amount">$0.5</string>
+    <string name="ad_hash">#hash #hash1</string>
+    <string name="ad_ref">#ref #ref1</string>
+
+    <!-- EN -->
+    <string name="payment_notification">Payment notifications</string>
+    <string name="enable_notification">Enable notification</string>
+    <string name="disable_notification">Disable notification</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="instruction_of_adbird">Instruction of AdBird</string>
+    <string name="title_activity_choose_language">ChooseLanguage</string>
+    <string name="title_activity_feedback">Contact Us</string>
+    <string name="title_activity_feedback_summary">Our coordinates</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_uc">PRIVACY POLICY</string>
+    <string name="privacy_policy_summary">Privacy Policy</string>
+    <string name="logout">LogOut</string>
+    <string name="logout_summary">Exit from AdBird</string>
+    <string name="forget_password"><u>Forgot password?</u></string>
+    <string name="social_networks">Social networks</string>
+    <string name="faq">FAQ</string>
+    <string name="categories">Categories</string>
+    <string name="categories_updated">Categories were successfully changed</string>
+
+    <string name="categories_updated_deny">You can change categories only once in 180 days</string>
+    <string name="instructions">Instructions</string>
+    <string name="rating_user">RATING</string>
+    <string name="does_not_paid">Why does not paid?</string>
+    <string name="does_not_paid_uc">WHY DOES NOT PAID?</string>
+    <string name="title_activity_ads">Post ad</string>
+    <string name="title_activity_loading">Calculating your Rating</string>
+    <string name="title_activity_leaders">Leaders</string>
+    <string name="title_activity_faq">FAQ</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_payment">Payment</string>
+    <string name="title_activity_rating">Calculating your Rating</string>
+    <string name="title_activity_history">HISTORY</string>
+    <string name="title_activity_profile">PROFILE</string>
+    <string name="title_activity_themes">THEMES</string>
+    <string name="title_activity_login_def">Login</string>
+    <string name="title_activity_utilities">Utilities</string>
+    <string name="title_activity_utilities_fragment">UtilitiesFragment</string>
+    <string name="saving_err">Sorry we can not register you. Please try again later</string>
+    <string name="title_activity_splash_screen">AdBird</string>
+    <string name="pleaseWait">Please Wait...</string>
+    <string name="login">Sign In</string>
+    <string name="title_activity_forgot__password">Forgot Password</string>
+    <string name="title_activity_register">Register</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="loc">City</string>
+    <string name="dd">DD</string>
+    <string name="mm">MM</string>
+    <string name="yyyy">YYYY</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="conf_password">Confirm password</string>
+    <string name="register"><u>Register</u></string>
+    <string name="registerBtn">Create Account</string>
+    <string name="invalidDay">Please enter date of your birth</string>
+    <string name="invalidEmail">Please enter a valid e-mail</string>
+    <string name="invalidName">Please enter your name</string>
+    <string name="invalidSurname">Please enter your surname</string>
+    <string name="check_your_credentials">Check your credentials</string>
+    <string name="okBtn">Ok</string>
+    <string name="title_activity_public_offer">Public Offer</string>
+    <string name="confirm_email">Please confirm your e-mail address</string>
+    <string name="allCaps">true</string>
+    <string name="th_games">Games</string>
+    <string name="th_travelling">Travelling</string>
+    <string name="th_shops">Shops</string>
+    <string name="th_food">Food</string>
+    <string name="th_fitness">Fitness</string>
+    <string name="th_babies">Babies</string>
+    <string name="th_cats">Cats</string>
+    <string name="th_science">Science</string>
+    <string name="th_makeup">Make up</string>
+    <string name="th_design">Design</string>
+    <string name="action_forgot_password">Forgot password?</string>
+    <string name="check_email">Please ,check your email.</string>
+    <string name="share_text">Share ads with friends \n and earn money</string>
+    <string name="promt_password">Promt Password</string>
+    <string name="rating_history">Rating</string>
+    <string name="accountOff">Your account is deactivated</string>
+    <string name="wrongEmail">Wrong e-mail address</string>
+    <string name="wrongPass">Wrong password</string>
+
+    <!-- Choose language -->
+    <string name="choose_language">Choose language:</string>
+    <string name="english">English</string>
+    <string name="russian">Русский</string>
+
+    <!-- Profile page -->
+    <string name="full_name">Name Surname</string>
+    <string name="username">username</string>
+    <string name="balance">Balance</string>
+    <string name="money_account">$20.78</string>
+    <string name="rating">YOUR RATING</string>
+    <string name="user_level_1">NEWBIE</string>
+    <string name="user_level_2">ENTHUSIAST</string>
+    <string name="user_level_3">CONTRIBUTOR</string>
+    <string name="user_level_4">EXPERT</string>
+    <string name="user_level_5">GURU</string>
+    <string name="rating_in_num">9.92</string>
+    <string name="rating_change">+0.1</string>
+    <string name="location">LOCATION</string>
+    <string name="location_name">Almaty, Kazakhstan</string>
+    <string name="your_themes">YOUR THEMES</string>
+    <string name="take_tour">Тake the tour</string>
+
+    <!-- Rating page -->
+    <string name="user_lvl_1">NEWBIE</string>
+    <string name="user_lvl_2">ENTHUSIAST</string>
+    <string name="user_lvl_3">CONTRIBUTOR</string>
+    <string name="user_lvl_4">EXPERT</string>
+    <string name="user_lvl_5">GURU</string>
+    <string name="rating_eval">According to your rating you will be granted </string>
+    <string name="rating_eval_cont">per post</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_categories">Select the categories that reflect the theme of your photos to Instagram</string>
+    <string name="loading">Loading...</string>
+    <string name="finilizing">Finalizing...</string>
+    <string name="update">Release to update</string>
+    <string name="update_down">Pull down to update</string>
+    <string name="socialnetwork">SOCIAL NETWORKS</string>
+    <string name="disconnect">Disconnect from Instagram?</string>
+    <string name="public_offer">PUBLIC OFFER</string>
+    <string name="accepted">Agree</string>
+    <string name="cashout">Cash out</string>
+    <string name="forget_password_uc">Forgot password?</string>
+    <string name="please_wait_ru">Пожалуйста подождите..</string>
+    <string name="rating_calc_ru">Подсчет рейтинга может занять несколько часов. Мы уведомим Вас, когда все будет готово</string>
+    <string name="rating_calc">Counting rating can take few hours.</string>
+    <string name="rating_two">AdBird will notify you when it is completed</string>
+    <string name="wait">AdBird is calculating your popularity on Instagram</string>
+
+    <!-- tutorial -->
+    <string name="tute_ad">Explore your popularity in social networks</string>
+    <string name="tute_2">Post ads of your your favorite brands</string>
+    <string name="tute_history">Earn real money!</string>
+    <string name="tute_profile">Track your earnings on profile page</string>
+    <string name="cancel">Cancel</string>
+    <string name="emailR">test@test.com</string>
+
+    <!-- new -->
+    <string name="country">Country</string>
+    <string name="contact_us">CONTACT US</string>
+    <string name="contact_us_lowercase">Contact us</string>
+    <string name="feedbackText"><u>Leave Feedback</u></string>
+    <string name="non_confidential">You instagram account cannot \nbe private.</string>
+    <string name="post_ad">Choose an ad to post.</string>
+    <string name="copied">The ad text has been copied to the clipboard, please paste it in Instagram while creating the post</string>
+    <string name="ads_title">ADS</string>
+    <string name="profile_title">PROFILE</string>
+    <string name="history_title">HISTORY</string>
+    <string name="settings_title">SETTINGS</string>
+    <string name="next"><u>Next</u></string>
+    <string name="choose_lang_default">en</string>
+    <string name="title_activity_settings_lang">CHANGE LANGUAGE</string>
+    <string name="change_lang">Language</string>
+    <string name="hint_msg">Write you message here..</string>
+    <string name="subject">Subject</string>
+    <string name="send">Send</string>
+    <string name="update_city">LOCATION</string>
+    <string name="invalid_city">Invalid City</string>
+    <string name="invalid_country">Invalid Country</string>
+    <string name="passwords_dont_match">Passwords do not match</string>
+    <string name="dob_label_text">Date of birth</string>
+    <string name="please_wait">Please wait..</string>
+    <string name="refreshing">Refreshing</string>
+    <string name="title_activity_new_settings">NewSettingsActivity</string>
+    <string name="title_activity_nsettings">NSettingsActivity</string>
+    <string name="max_themes">You can select maximum 3 categories</string>
+    <string name="min_theme">Please select at least one theme</string>
+    <string name="privacy_activity">Account privacy</string>
+    <string name="privacy_text">Your account must not be private</string>
+    <string name="privacy_button">My account is opened</string>
+    <string name="tutorial_settings">Tutorial</string>
+    <string name="no_internet">No internet connection!</string>
+    <string name="cantLogin">Enter correct e-mail/password</string>
+    <string name="title_activity_privacy_policy">PrivacyPolicy</string>
+    <string name="privacy_policy_upper">PRIVACY POLICY</string>
+    <string name="personal_account_verification">Are you logged in under your own account in Instagram?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="conf_inst">Confirm \nInstagram username</string>
+    <string name="error_incorrect_inst">Instagram usernames do not match</string>
+    <string name="change">You can change this parameter once at 60 days</string>
+
+    <string-array name="Language">
+        <item>English</item>
+        <item>Русский</item>
+    </string-array>
+    <string-array name="LanguageData">
+        <item>english</item>
+        <item>russian</item>
+    </string-array>
+
+    <!-- RU -->
+    <string name="payment_notification_ru">Уведомления при оплате</string>
+    <string name="title_activity_tutorial_ru">Ознакомьтесь с приложением</string>
+    <string name="instruction_of_adbird_ru">Инструкция из AdBird</string>
+    <string name="title_activity_choose_language_ru">Выберите ваш язык</string>
+    <string name="contact_us_ru">СВЯЗАТЬСЯ С НАМИ</string>
+    <string name="contact_us_ru_lc">Связаться с нами</string>
+    <string name="title_activity_feedback_summary_ru">Наши координаты</string>
+    <string name="privacy_policy_ru">Политика конфиденциальности</string>
+    <string name="privacy_policy_ru_uc">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</string>
+    <string name="max_themes_ru">Вы можете выбрать максимум 2 темы</string>
+    <string name="min_theme_ru">Пожалуйста, выберите хотя бы один тему</string>
+    <string name="privacy_policy_summary_ru">Политика конфиденциальности</string>
+    <string name="enable_notification_ru">Включить уведомления</string>
+    <string name="disable_notification_ru">Отключить уведомления</string>
+    <string name="logout_ru">Выйти</string>
+    <string name="logout_summary_ru">Выход из AdBird</string>
+    <string name="share_text_ru">Делитесь рекламой \nс друзьями и \nзарабатывайте деньги</string>
+    <string name="promt_password_ru">Пароль</string>
+    <string name="title_activity_register_ru">Регистрация</string>
+    <string name="forget_password_ru">Забыли пароль</string>
+    <string name="take_tour_ru">Ознакомьтесь с приложением</string>
+    <string name="name_ru">Имя</string>
+    <string name="surname_ru">Фамилия</string>
+    <string name="conf_password_ru">Повторите пароль</string>
+    <string name="dd_ru">ДД</string>
+    <string name="mm_ru">ММ</string>
+    <string name="yyyy_ru">ГГГГ</string>
+    <string name="male_ru">Мужской</string>
+    <string name="female_ru">Женский</string>
+    <string name="send_ru">Отправить</string>
+    <string name="tute_ad_ru">Выберите понравившийся рекламный пост и нажмите на кнопку «Опубликовать»</string>
+    <string name="tute_2_ru">Рекламный пост появится в вашей ленте Instagram</string>
+    <string name="tute_history_ru">Следите за статусом опубликованных постов</string>
+    <string name="tute_profile_ru">Плата за публикацию будет отражаться на странице вашего профиля</string>
+    <string name="post_ad_ru">Выберите рекламу \n для размещения.</string>
+    <string name="paid_ru">ОПЛАЧЕНО</string>
+    <string name="pending_ru">ОЖИДАЕТСЯ</string>
+    <string name="cancelled_ru">ОТМЕНЕНО</string>
+    <string name="balance_ru">Баланс</string>
+    <string name="social_networks_ru">Социальные сети</string>
+    <string name="location_ru">Расположение</string>
+    <string name="title_activity_rating_ru">Рейтинг</string>
+    <string name="copied_ru">Текст из рекламы был скопирован на ваш клипборд. Пожалуйста вставьте его при создании поста в Инстаграмме.</string>
+    <string name="user_level_1_ru">НОВИЧОК</string>
+    <string name="user_level_2_ru">СТАЖЕР</string>
+    <string name="user_level_3_ru">АКТИВИСТ</string>
+    <string name="user_level_4_ru">ЭКСПЕРТ</string>
+    <string name="user_level_5_ru">ГУРУ</string>
+    <string name="rating_eval_ru">"В соответствии с рейтингом, Вы будете получать </string>
+    <string name="rating_eval_cont_ru">за каждый рекламный пост</string>
+    <string name="action_settings_ru">НАСТРОЙКИ</string>
+    <string name="help_ru">ПОМОЩЬ</string>
+    <string name="help_ru_lc">Помощь</string>
+    <string name="help_summary_ru">Помощь для пользователей</string>
+    <string name="faq_ru">Часто задаваемые вопросы</string>
+    <string name="subject_ru">Тема</string>
+    <string name="hint_msg_ru">Написать вам сообщение здесь ..</string>
+    <string name="next_ru"><u>Следующая</u></string>
+    <string name="categories_ru">Категории</string>
+    <string name="instructions_ru">Инструкции</string>
+    <string name="rating_user_ru">РЕЙТИНГ</string>
+    <string name="does_not_paid_ru">Мой пост не был оплачен</string>
+    <string name="does_not_paid_ru_uc">МОЙ ПОСТ НЕ БЫЛ ОПЛАЧЕН</string>
+    <string name="post_ru">Опубликовать</string>
+    <string name="title_categories_ru">Выберите категории, отражающие тематику Ваших фотографий в Instagram</string>
+    <string name="loading_ru">Загрузка...</string>
+    <string name="finilizing_ru">Завершение...</string>
+    <string name="update_ru">Отпустите обновить</string>
+    <string name="update_down_ru">Потяните вниз чтобы обновить</string>
+    <string name="empty_ad_ru">К сожалению нет предложений для вас от рекламодателей</string>
+    <string name="empty_history_ru">Здесь вы сможете отслеживать опубликованные рекламные посты и состояние оплаты за них</string>
+    <string name="ads_title_ru">РЕКЛАМНЫЕ ПОСТЫ</string>
+    <string name="title_activity_history_ru">ИСТОРИЯ</string>
+    <string name="title_activity_profile_ru">ПРОФИЛЬ</string>
+    <string name="no_internet_ru">Нет подключение к интернету!</string>
+    <string name="socialnetwork_ru">СОЦИАЛЬНЫЕ СЕТИ</string>
+    <string name="disconnect_ru">Отключите от Instagram?</string>
+    <string name="yes_ru">Да</string>
+    <string name="accepted_ru">Согласен</string>
+    <string name="saving_err_ru">К сожалению, мы не могли зарегистрировать Вас, пожалуйста, попробуйте позже снова</string>
+    <string name="no_ru">Нет</string>
+    <string name="public_offer_ru">ПУБЛИЧНАЯ ОФЕРТА</string>
+    <string name="forget_password_uc_ru">ЗАБЫЛИ ПАРОЛЬ</string>
+    <string name="check_email_ru">Пожалуйста, проверьте свою электронную почту.</string>
+    <string name="chose_date">Birth Date</string>
+    <string name="ihaveaccount"><u>I already have an account</u></string>
+    <string name="i_agree">I agree</string>
+    <string name="userAgreementActivity">License agreement</string>
+    <string name="createAccount"><u>Сreate Account</u></string>
+    <string name="instagram">Instagram</string>
+    <string name="connectSocialNetwork">Connect your accounts</string>
+    <string name="facebook_soon">Facebook (soon)</string>
+    <string name="twitter_soon">Twitter (soon)</string>
+    <string name="vk_soon">VK (скоро)</string>
+    <string name="your_rating">Your rating is</string>
+
+    <string name="meaning">You will earn</string>
+    <string name="placecity">Leaderboard</string>
+    <string name="youearn">You will earn </string>
+    <string name="congrats">Congratulations!</string>
+    <string name="nextButton">Next</string>
+    <string name="yourpassword">Password will be sent to your e-mail</string>
+    <string name="sendPassword">Send password</string>
+    <string name="title_activity_ads_">ADS_Activity</string>
+    <string name="publish">Post</string>
+    <string name="warn">You will receive: </string>
+    <string name="tg">tg</string>
+    <string name="interests">What do you usually post?</string>
+    <string name="title_activity_history_single_item">History</string>
+    <string name="title_activity_help">Help</string>
+    <string name="settings_Activity">Settings</string>
+    <string name="title_activity_change_language">Change language</string>
+    <string name="notChecked">Pending</string>
+    <string name="published">Paid</string>
+    <string name="notFound">Not paid</string>
+    <string name="maximumtwocategories">You can choose maximum 3 categories</string>
+    <string name="writeToUs">Contact us</string>
+    <string name="howAdbirdWorks">How AdBird works</string>
+    <string name="userAgreement">User agreement</string>
+    <string name="termsOfService">Terms of Service</string>
+    <string name="postError">Your account is not activated, please check your e-mail</string>
+    <string name="youwillEarn">You will earn</string>
+    <string name="changePhotoCategory">Edit photo category</string>
+    <string name="deactivateSocial">Disconnect Account</string>
+    <string name="save">Save</string>
+    <string name="passwordMismatch">Password do not match</string>
+    <string name="noPosts">There are no ads for you today. Please, try again later.</string>
+    <string name="history_fish">You can track posted ads here</string>
+    <string name="change_category"> Change category of photos</string>
+    <string name="password_changed">Password was successfully changed</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="action_logout">Log Out</string>
+    <string name="checkYourLogin">Check your login credentials</string>
+    <string name="enterEmail">Enter your email</string>
+    <string name="ads_fragment">Ads</string>
+    <string name="history_fragment">History</string>
+    <string name="profile_fragment">Profile</string>
+    <string name="leaders_fragment">Leaders</string>
+    <string name="emailError">This email is registered</string>
+    <string name="yourRating">Your rating:</string>
+    <string name="errorInstagram">This instagram account is activated</string>
+    <string name="forgot_password_title">Restore password</string>
+    <string name="enterOld">Enter your password</string>
+    <string name="enterNew">Enter new password</string>
+    <string name="confirmNew">Repeat new password</string>
+    <string name="title_activity_social_networks_config">Social network settings</string>
+    <string name="until">until</string>
+    <string name="leaders">Leaders</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Ads</item>
+        <item>My tasks (soon)</item>
+        <item>History</item>
+        <item>Profile</item>
+        <item>Leaders of your city</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ads_icon</item>
+        <item>@drawable/tasks_icon</item>
+        <item>@drawable/history_icon</item>
+        <item>@drawable/profile_icon</item>
+        <item>@drawable/leaders_icon</item>
+    </array>
+
+    <!-- FAQ -->
+    <string name="adbird_question">What is AdBird?</string>
+    <string name="whosurfer">Who is Surfer?</string>
+    <string name="howitworks">How does AdBird work?</string>
+    <string name="post_a_post">How to place the advertising post in the line?</string>
+    <string name="whatIsBird">What does «tick» mean?</string>
+    <string name="increaseBirds">How to increase the quantity of «tick»?</string>
+    <string name="whyRatingLower">Why my rating is lower than my friend\'s though he has fewer followers?</string>
+    <string name="rewards_question">What is necessary that remuneration will be accrued to me?</string>
+    <string name="getMoney_question">How to get accrued money?</string>
+    <string name="partsMoney_question">Can I take out only part of money from my account?</string>
+    <string name="taxes_question">Whether I need to pay taxes for the received money?</string>
+    <string name="comission_question">Who will pay commission charges to a bank from my fee?</string>
+    <string name="why_walletOne_question">Why "AdBird" works only through "W1"? Why it is impossible to receive money through "PayPal", "Qiwi" and other payment systems?</string>
+    <string name="price_question">Why for some posts payment is specified less than my rating?</string>
+    <string name="once_question">Why it is allowed to publish posts only once a day?</string>
+    <string name="twoCategories_qeustions">Why it is allowed to choose only три categories of photos?</string>
+    <string name="posts_question">Why I don\'t see some advertising posts which are seen by my friends?</string>
+    <string name="filters_question">Can I use filters to photos taken from the page "Advertising Posts" in the AdBird Application?</string>
+    <string name="text_question">Can I change the text of the advertising post or add something from myself?</string>
+    <string name="title_activity_privacy_activity">PrivacyPolicy</string>
+
+    <!-- FAQ -->
+    <string name="adbird_answer">AdBird – is the exchange of advertising at social networks, the intermediary between Advertisers and Surfers (you are a Surfer).</string>
+    <string name="whosurfer_answer">Surfers are social networkers; their subscribers consider carefully their opinion.</string>
+    <string name="howitworks_answer">Advertiser places at the advertising exchange in "AdBird" advertising materials, and you can choose among them that one\’s which most of all correspond to your interests, and place them in the line in one of social networks. You get remuneration from the Advertiser for it.</string>
+    <string name="post_a_post_answer">Choose the advertising, most interesting to your audience on the page "Advertising Posts" and click the button "Publish" (for Instagram: it is necessary to publish from the Instagram application).</string>
+    <string name="whatIsBird_answer">«Tick» - is a unit of measure of your popularity in social networks. The quantity of "ticks" is summurised on a certain algorithm from among your followers, friends, likes, comments, etc.</string>
+    <string name="increaseBirds_answer">Share interesting information with friends and followers, expand the audience and be active. "AdBird" recalculates your rating every month.</string>
+    <string name="whyRatingLower_answer">The rating (quantity of tick) depends on a set of criteria, number of followers – only one of manycriteria.</string>
+    <string name="rewards_answer">In 48 hours your account in "AdBird" will be replenished if at the publication of advertising you didn\'t edit the text and didn\'t distort the original image.</string>
+    <string name="getMoney_answer">Press the icon of cash withdrawal on the page "Profile». Further follow instructions.</string>
+    <string name="partsMoney_answer">No, at withdrawal of funds all sum which is available on the account of the Surfer is withdrawn at once.</string>
+    <string name="taxes_answer">"AdBird" pays individual income tax at source on behalf of you. You get remuneration for placement of advertising posts with a deduction of tax assignments.</string>
+    <string name="comission_answer">Commission charges for withdrawal of funds from the pocket «W1" on the card (or other payment systems) are paid by you. Withdrawal of funds from the account of «AdBird" on the pocket "W1" is carried out without the commissions.</string>
+    <string name="why_walletOne_answer">You can transfer money from the pocket "W1" on your pocket "Qiwi" or the cash card.</string>
+    <string name="price_answer">You are too popular, and your rating is above that sum which the Advertiser is ready to pay for the placement of this post. You can make a decision: to publish it or not.</string>
+    <string name="once_answer">If the Surfer places advertising too often on his page, it can frighten off followers, and advertising will cease to be perceived.</string>
+    <string name="twoCategories_answer">We sincerely believe that each Surfer uploads pictures, involuntarily adhering to a certain subject. And on this subject he is recognized by followers. We want you to receive only those advertising posts which really suit you.</string>
+    <string name="posts_answer">It can occur if you are in different cities, you have different subject of photos, different sex and age.</string>
+    <string name="filters_answer">No, filters can\'t be used to photos; differently you will not get remuneration.</string>
+    <string name="text_answer">No, the text can\'t be changed; differently you will not get remuneration.</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="notificationsHint">When your post is paid and other events</string>
+    <string name="change_language">Change language</string>
+    <string name="language">English</string>
+    <string name="changePassTxt">Change password</string>
+    <string name="changePassHint">We recommend to change password frequently</string>
+
+</resources>

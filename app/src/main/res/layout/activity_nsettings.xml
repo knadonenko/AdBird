@@ -1,0 +1,398 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grey_faded"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notificationsLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notifications"
+            android:id="@+id/textView"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notificationsHint"
+            android:id="@+id/textView6"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"
+            android:textColor="@color/grey_as_sasha"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/notificationsCheckBox"
+            android:layout_marginRight="10dp"
+            android:button="@drawable/adbird_btn_check_holo_light"
+            android:layout_marginTop="7dp"
+            android:layout_alignTop="@+id/textView"
+            android:layout_alignParentEnd="true" />
+
+        <View
+            android:layout_width="330dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="0.2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/textView6"
+            android:id="@+id/view" />
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/languageLayout"
+        android:onClick="changeLanguage"
+        android:layout_below="@+id/notificationsLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_language"
+            android:id="@+id/textView2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language"
+            android:id="@+id/textView7"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"
+            android:textColor="@color/grey_as_sasha"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="330dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="0.2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/textView7"
+            android:id="@+id/view1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordLayout"
+        android:onClick="changePassword"
+        android:layout_below="@+id/languageLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/changePassTxt"
+            android:id="@+id/textView3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/changePassHint"
+            android:id="@+id/textView8"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"
+            android:textColor="@color/grey_as_sasha"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="330dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="0.2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/textView8"
+            android:id="@+id/view2The" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/passwordLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp" >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/socialNetworksLayout"
+            android:background="@color/grey_faded"
+            android:layout_below="@+id/line2">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/relativeLayout2"
+            android:layout_marginTop="10dp"
+            android:onClick="openSocialSettings"
+            android:layout_alignParentStart="true">
+
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageInstagram"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/insta_info"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/imageInstagram"
+                android:id="@+id/view4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="kebirov.rakhim"
+                android:textSize="20sp"
+                android:id="@+id/instaLogin"
+                android:textColor="@color/grey_as_sasha"
+                android:layout_marginTop="23dp"
+                android:layout_toEndOf="@+id/imageInstagram"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp"
+                android:text="Instagram"
+                android:id="@+id/textView4"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/instaLogin" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/relativeLayout3"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/relativeLayout2"
+            android:layout_alignParentStart="true">
+
+
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageFacebook"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/facebook_infoicon"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="0.2dp"
+                android:layout_marginTop="40dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/imageFacebook"
+                android:id="@+id/view6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/facebook_soon"
+                android:textSize="20sp"
+                android:textColor="@color/grey_as_sasha"
+                android:id="@+id/textView1"
+                android:layout_marginTop="23dp"
+                android:layout_toEndOf="@+id/imageFacebook"
+                android:layout_marginLeft="22dp" />
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:id="@+id/imagePlus2"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/plus_image"
+                android:layout_alignEnd="@+id/view6"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp"
+                android:text="Facebook"
+                android:id="@+id/textView5"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/textView1" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/relativeLayout4"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/relativeLayout3"
+            android:layout_alignParentStart="true">
+
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageTwitter"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/twitter_infoicon"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/imageTwitter"
+                android:id="@+id/view2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/twitter_soon"
+                android:textSize="20sp"
+                android:textColor="@color/grey_as_sasha"
+                android:id="@+id/twitterLogin"
+                android:layout_marginTop="23dp"
+                android:layout_toEndOf="@+id/imageTwitter"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp"
+                android:text="Twitter"
+                android:id="@+id/textView9"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/twitterLogin" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/relativeLayout5"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/relativeLayout4"
+            android:layout_alignParentStart="true">
+
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageVK"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/vk_infoicon"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/imageVK"
+                android:id="@+id/view3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/vk_soon"
+                android:textSize="20sp"
+                android:textColor="@color/grey_as_sasha"
+                android:id="@+id/vkLogin"
+                android:layout_marginTop="23dp"
+                android:layout_toEndOf="@+id/imageVK"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp"
+                android:text="VKontakte"
+                android:id="@+id/textView10"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/vkLogin" />
+
+        </RelativeLayout>
+        </RelativeLayout>
+        </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/social_networks"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        android:textColor="@color/grey_as_sasha"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/passwordLayout"
+        android:layout_alignStart="@+id/view8"
+        android:layout_marginTop="58dp" />
+    <View
+        android:layout_width="330dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="0.2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/textView11"
+        android:id="@+id/view8" />
+
+
+</RelativeLayout>

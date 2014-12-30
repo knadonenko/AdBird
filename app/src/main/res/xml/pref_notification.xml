@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+         A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked.
+    -->
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="notifications_new_message"
+        android:title="@string/notification" />
+
+
+
+    <Preference android:title="@string/tutorial" >
+        <intent android:action="android.intent.action.TUTORIAL" />
+    </Preference>
+    <Preference android:title="@string/contact_us_lowercase" >
+        <intent android:action="android.intent.action.FEEDBACK" />
+    </Preference>
+    <Preference android:title="@string/change_lang" >
+        <intent android:action="android.intent.action.LANGUAGE" />
+    </Preference>
+    <Preference android:title="@string/logout" >
+        <intent
+            android:action="android.intent.action.LOGIN" />
+    </Preference>
+    
+
+</PreferenceScreen>

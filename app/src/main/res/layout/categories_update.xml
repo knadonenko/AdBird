@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_faded"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/maximumtwocategories"
+                android:gravity="center"
+                android:id="@+id/limit"
+                android:textColor="@color/grey_as_sasha"
+                android:textSize="18dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"/>
+
+            <test.com.adbirdads.ToggleButtonGroupTableLayout
+                android:id="@+id/radGroup1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/limit"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="0dp" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="3.5"
+                        android:visibility="invisible" />
+
+                    <CheckBox
+                        android:id="@+id/th_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="40"
+                        android:padding="5dp"
+                        android:textSize="18dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:button="@drawable/radio_button_reg"
+                        android:onClick="onCheckboxClicked"
+                        android:textColor="@color/grey_as_sasha" />
+
+                    <CheckBox
+                        android:id="@+id/th_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="40"
+                        android:button="@drawable/radio_button_reg"
+                        android:textSize="18dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:checked="false"
+                        android:onClick="onCheckboxClicked"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/grey_as_sasha" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:visibility="invisible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="3.5"
+                        android:visibility="invisible" />
+
+                    <CheckBox
+                        android:id="@+id/th_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="40"
+                        android:button="@drawable/radio_button_reg"
+                        android:textSize="18dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:checked="false"
+                        android:onClick="onCheckboxClicked"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/grey_as_sasha" />
+
+                    <CheckBox
+                        android:id="@+id/th_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="40"
+                        android:textSize="18dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:button="@drawable/radio_button_reg"
+                        android:checked="false"
+                        android:onClick="onCheckboxClicked"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/grey_as_sasha" />
+
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:visibility="invisible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="3.5"
+                        android:visibility="invisible" />
+
+                    <CheckBox
+                        android:id="@+id/th_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="40"
+                        android:textSize="18dp"
+                        android:button="@drawable/radio_button_reg"
+                        android:fontFamily="sans-serif-condensed"
+                        android:checked="false"
+                        android:onClick="onCheckboxClicked"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/grey_as_sasha" />
+
+                    <CheckBox
+                        android:id="@+id/th_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="40"
+                        android:button="@drawable/radio_button_reg"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="18dp"
+                        android:checked="false"
+                        android:onClick="onCheckboxClicked"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/grey_as_sasha" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:visibility="invisible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="3.5"
+                        android:visibility="invisible" />
+
+                    <CheckBox
+                        android:id="@+id/th_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="40"
+                        android:textSize="18dp"
+                        android:button="@drawable/radio_button_reg"
+                        android:fontFamily="sans-serif-condensed"
+                        android:checked="false"
+                        android:onClick="onCheckboxClicked"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/grey_as_sasha" />
+
+                    <CheckBox
+                        android:id="@+id/th_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="40"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="18dp"
+                        android:button="@drawable/radio_button_reg"
+                        android:checked="false"
+                        android:onClick="onCheckboxClicked"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/grey_as_sasha" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:visibility="invisible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="3.5"
+                        android:visibility="invisible" />
+
+                    <CheckBox
+                        android:id="@+id/th_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="40"
+                        android:button="@drawable/radio_button_reg"
+                        android:checked="false"
+                        android:textSize="18dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:onClick="onCheckboxClicked"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/grey_as_sasha" />
+
+                    <CheckBox
+                        android:id="@+id/th_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="40"
+                        android:textSize="18dp"
+                        android:button="@drawable/radio_button_reg"
+                        android:fontFamily="sans-serif-condensed"
+                        android:checked="false"
+                        android:onClick="onCheckboxClicked"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/grey_as_sasha" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:visibility="invisible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="3.5"
+                        android:visibility="invisible" />
+
+                    <CheckBox
+                        android:id="@+id/th_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="40"
+                        android:textSize="18dp"
+                        android:button="@drawable/radio_button_reg"
+                        android:fontFamily="sans-serif-condensed"
+                        android:checked="false"
+                        android:onClick="onCheckboxClicked"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/grey_as_sasha" />
+
+                    <CheckBox
+                        android:id="@+id/th_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="40"
+                        android:textSize="18dp"
+                        android:button="@drawable/radio_button_reg"
+                        android:fontFamily="sans-serif-condensed"
+                        android:checked="false"
+                        android:onClick="onCheckboxClicked"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/grey_as_sasha" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:visibility="invisible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="3.5"
+                        android:visibility="invisible" />
+
+                    <CheckBox
+                        android:id="@+id/th_13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="40"
+                        android:button="@drawable/radio_button_reg"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="18dp"
+                        android:checked="false"
+                        android:onClick="onCheckboxClicked"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/grey_as_sasha" />
+
+                    <CheckBox
+                        android:id="@+id/th_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="18dp"
+                        android:layout_weight="40"
+                        android:button="@drawable/radio_button_reg"
+                        android:fontFamily="sans-serif-condensed"
+                        android:checked="false"
+                        android:onClick="onCheckboxClicked"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/grey_as_sasha" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:visibility="invisible" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="3.5"
+                        android:visibility="invisible" />
+
+                    <CheckBox
+                        android:id="@+id/th_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="40"
+                        android:button="@drawable/radio_button_reg"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="18dp"
+                        android:checked="false"
+                        android:onClick="onCheckboxClicked"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/grey_as_sasha" />
+
+                    <CheckBox
+                        android:id="@+id/th_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="18dp"
+                        android:layout_weight="40"
+                        android:button="@drawable/radio_button_reg"
+                        android:fontFamily="sans-serif-condensed"
+                        android:checked="false"
+                        android:onClick="onCheckboxClicked"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/grey_as_sasha"
+                        android:visibility="invisible"/>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:visibility="invisible" />
+                </TableRow>
+
+
+            </test.com.adbirdads.ToggleButtonGroupTableLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_as_sasha"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginRight="0dp"
+                android:textSize="14dp"
+                android:text="@string/categories_updated_deny"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <Button
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/save"
+                android:textColor="@color/taxi_white"
+                android:background="@drawable/orange_button"
+                android:enabled="true"
+                android:id="@+id/button"
+                android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

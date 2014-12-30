@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/grey_faded"
+    tools:context="test.com.adbirdads.HelpActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/writeToUsLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/writeToUs"
+            android:textSize="19sp"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/writeToUs" />
+
+        <View
+            android:layout_width="330dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="0.2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/writeToUs"
+            android:id="@+id/view" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/howItWorksLayout"
+        android:layout_below="@+id/writeToUsLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/howAdbirdWorks"
+            android:layout_marginTop="10dp"
+            android:textSize="19sp"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/howItWorks" />
+
+        <View
+            android:layout_width="330dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="0.2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/howItWorks"
+            android:id="@+id/view1" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FAQLayout"
+        android:layout_below="@+id/howItWorksLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/faq"
+            android:layout_marginTop="10dp"
+            android:textSize="19sp"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/faqText" />
+
+        <View
+            android:layout_width="330dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="0.2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/faqText"
+            android:id="@+id/view2" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userAgreementLayout"
+        android:layout_below="@+id/FAQLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/userAgreement"
+            android:layout_marginTop="10dp"
+            android:textSize="19sp"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/userAgreementTXT" />
+
+        <View
+            android:layout_width="330dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="0.2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/userAgreementTXT"
+            android:id="@+id/view3" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/termsOfService"
+        android:layout_below="@+id/userAgreementLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/termsOfService"
+            android:layout_marginTop="10dp"
+            android:textSize="19sp"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/termsOfServiceTXT" />
+
+        <View
+            android:layout_width="330dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="0.2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/termsOfServiceTXT"
+            android:id="@+id/view4" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,214 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView3" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_faded"
+        android:paddingBottom="30dp"
+
+      >
+
+
+
+
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:text="@string/nextButton"
+        android:id="@+id/next_button"
+        android:fontFamily="sans-serif-condensed"
+        android:background="@drawable/orange_button"
+        android:textColor="@color/taxi_white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="800dp" />
+
+
+
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_rating"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/textView3"
+        android:textSize="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView3"
+            android:gravity="center_horizontal"
+            android:id="@+id/linearLayout">
+
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="32dp"
+                android:id="@+id/imageView4"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/icon_bird_rating_process"
+                android:layout_marginLeft="-52dp"
+                />
+            <TextView
+                android:id="@+id/rating_evaluation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="310"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="80sp"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/orange_orange"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/youearn"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/textView13"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/placecity"
+            android:id="@+id/place"
+                android:layout_below="@+id/textView13"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="85dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/place"
+            android:layout_centerHorizontal="true">
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:id="@+id/rating_list"
+
+                android:layout_marginTop="29dp" />
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:clickable="false"
+            android:layout_toEndOf="@+id/rating_list"
+            android:background="#dcdcdc"
+            android:id="@+id/neymar">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/leader_avatar"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/leaders_avatar"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neymar da Silva"
+                android:id="@+id/username"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16dp"
+                android:layout_toEndOf="@+id/leader_avatar"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="28dp"
+                android:layout_alignTop="@+id/leader_avatar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="248435"
+                android:textColor="@color/orange_orange"
+                android:id="@+id/Rating"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16dp"
+                android:layout_alignBottom="@+id/username"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="15dp"
+                android:id="@+id/birdImage"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/bird_image"
+                android:layout_toStartOf="@+id/Rating"
+                android:layout_alignBottom="@+id/username" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:id="@+id/positionImage"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/leader"
+                android:layout_alignBottom="@+id/leader_avatar"
+                android:layout_toStartOf="@+id/username"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="9"
+                android:textColor="@color/orange_orange"
+                android:textSize="17sp"
+                android:id="@+id/myPos"
+                android:layout_alignBottom="@+id/leader_avatar"
+                android:layout_toEndOf="@+id/positionImage"
+                android:layout_marginLeft="-19dp"
+                android:layout_marginBottom="2dp"/>
+
+
+        </RelativeLayout>
+        </LinearLayout>
+
+
+        <!--<ImageView-->
+        <!--android:layout_width="23dp"-->
+        <!--android:layout_height="19dp"-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_marginTop="6dp"-->
+        <!--android:background="@drawable/icon_bird_rating_process"-->
+        <!--android:layout_marginLeft="160dp"-->
+        <!--android:layout_alignTop="@+id/rating_evaluation" />-->
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

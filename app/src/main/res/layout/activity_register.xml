@@ -1,0 +1,169 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Register">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/previewBG"
+        android:background="@color/grey_faded">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:hint="@string/name"
+                android:fontFamily="sans-serif-condensed"
+                android:imeOptions="actionNext"
+                android:background="@drawable/adbird_edit_text_holo_light"
+                android:inputType="textCapWords|textPersonName"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColor="@color/grey_as_sasha"
+                android:textColorHint="@color/grey_as_sasha" />
+
+            <EditText
+                android:id="@+id/surname"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:hint="@string/surname"
+                android:imeOptions="actionNext"
+                android:fontFamily="sans-serif-condensed"
+                android:background="@drawable/adbird_edit_text_holo_light"
+                android:inputType="textPersonName|textCapWords"
+                android:maxLines="1"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColor="@color/grey_as_sasha"
+                android:textColorHint="@color/grey_as_sasha" />
+
+
+            <Button
+                android:layout_width="322dp"
+                android:layout_height="47dp"
+                android:text="@string/chose_date"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingTop="15dp"
+                android:gravity="left"
+                android:paddingLeft="6dp"
+                android:textColor="@color/grey_as_sasha"
+                android:background="@drawable/date_picker_button"
+                android:drawableRight="@drawable/button_image_calendar"
+                android:layout_marginTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:id="@+id/buttonDate"
+                android:onClick="choseDate"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.25"
+                android:ems="10"
+                android:hint="@string/prompt_email"
+                android:imeOptions="actionNext"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/adbird_edit_text_holo_light"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColor="@color/grey_as_sasha"
+                android:textColorHint="@color/grey_as_sasha" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.24"
+                android:ems="10"
+                android:hint="@string/prompt_password"
+                android:imeOptions="actionNext"
+                android:fontFamily="sans-serif-condensed"
+                android:background="@drawable/adbird_edit_text_holo_light"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColor="@color/grey_as_sasha"
+                android:textColorHint="@color/grey_as_sasha" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupReg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="107dp"
+                    android:button="@drawable/radio_button_reg"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="17sp"
+                    android:checked="true"
+                    android:focusableInTouchMode="true"
+                    android:paddingLeft="7dp"
+                    android:text="@string/male"
+                    android:textColor="@color/grey_as_sasha" />
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="2dp"
+                    android:button="@drawable/radio_button_reg"
+                    android:fontFamily="sans-serif-condensed"
+                    android:checked="false"
+                    android:paddingLeft="7dp"
+                    android:text="@string/female"
+                    android:textColor="@color/grey_as_sasha" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:text="@string/registerBtn"
+                android:textColor="#FFF"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="registerUser"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/orange_button"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/ihaveaccount"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginTop="10dp"
+                android:id="@+id/haveAccount"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@drawable/link_text"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</merge>

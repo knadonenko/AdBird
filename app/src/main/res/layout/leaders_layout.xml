@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:clickable="false"
+    android:id="@+id/greyer">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/leader_avatar"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/leaders_avatar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neymar da Silva"
+        android:id="@+id/textView"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16dp"
+        android:layout_toEndOf="@+id/leader_avatar"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="28dp"
+        android:layout_alignTop="@+id/leader_avatar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="248435"
+        android:textColor="@color/orange_orange"
+        android:id="@+id/textView2"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="15dp"
+        android:id="@+id/birdImage"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/bird_image"
+        android:layout_toStartOf="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:id="@+id/positionImage"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/leader_1"
+        android:layout_alignBottom="@+id/leader_avatar"
+        android:layout_toStartOf="@+id/textView" />
+
+</RelativeLayout>

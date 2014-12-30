@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="button_faq"
+        android:summary="Frequently asked questions"
+        android:title="FAQ" />
+    <Preference
+        android:key="button_contact_us"
+        android:summary="Contact of AdBird"
+        android:title="Contact" />
+    <Preference
+        android:key="button_tutorial"
+        android:summary="Instruction of AdBird"
+        android:title="Tutorial" />
+
+</PreferenceScreen>

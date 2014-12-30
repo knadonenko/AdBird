@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:key="notif"
+        android:summary="Enable notifications"
+        android:summaryOff="Off"
+        android:summaryOn="On"
+        android:title="Payment notifications" >
+    </CheckBoxPreference>
+
+    <ListPreference
+        android:entries="@array/Language"
+        android:entryValues="@array/Language"
+        android:key="language_preference"
+        android:summary="List languages"
+        android:title="Language" />
+
+    <Preference
+        android:key="button_privacy_policy"
+        android:summary="Privacy policy"
+        android:title="Privacy Policy" />
+    <Preference
+        android:key="button_help"
+        android:summary="Help for users"
+        android:title="Help" />
+    <Preference
+        android:key="button_logout"
+        android:layout="@layout/logout_settings" />
+
+</PreferenceScreen>

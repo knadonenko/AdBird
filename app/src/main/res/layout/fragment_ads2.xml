@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ads_fragment"
+    android:background="@color/grey_faded"
+    tools:context="test.com.adbirdads.AdsFragment">
+
+        <GridView
+            android:id="@+id/adsListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alwaysDrawnWithCache="true"
+            android:clipChildren="true"
+            android:clipToPadding="true"
+            android:columnWidth="10dp"
+            android:gravity="center_horizontal"
+            android:horizontalSpacing="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:numColumns="2"
+            android:padding="0dp"
+            android:scrollingCache="true"
+            android:smoothScrollbar="true"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp" >
+        </GridView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noPosts"
+        android:layout_marginTop="130dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="19sp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textColor="@color/grey_as_sasha"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/noPosts"
+        android:layout_gravity="center_horizontal|top" />
+
+</FrameLayout>
